@@ -48,8 +48,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # Env
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -96,7 +94,6 @@ data/branch_list.txt
 
 # Editor and IDE files
 .idea/
-.vscode/settings.json
 *.code-workspace
 
 # OS generated files
@@ -115,3 +112,7 @@ ehthumbs.db
 # Package manager lock files at contract level (keep root ones)
 contracts/**/package-lock.json
 contracts/**/yarn.lock
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
